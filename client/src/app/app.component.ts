@@ -9,6 +9,8 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
+//Making HTTP request in Angular
 export class AppComponent implements OnInit {
 
   http = inject(HttpClient);
